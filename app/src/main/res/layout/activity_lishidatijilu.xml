@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#DDF3FF"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="169dp"
+        android:background="#479AC7"
+        android:gravity="center_horizontal"
+        android:text="答题记录"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="73dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="答题次数" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignEnd="@+id/textView20"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="-11dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView20"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="0dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="奖励积分" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="87dp"
+        android:layout_height="92dp"
+        android:layout_alignTop="@+id/textView21"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="5dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_alignTop="@+id/textView20"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="171dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_alignTop="@+id/ratingBar2"
+        android:layout_marginStart="-52dp"
+        android:layout_marginTop="15dp"
+        android:text="今日最佳成绩"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@drawable/shape"
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ratingBar2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="107dp"
+        android:text="开始答题"
+        android:textSize="24sp"
+ />
+</RelativeLayout>

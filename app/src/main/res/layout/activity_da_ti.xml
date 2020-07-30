@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDF3FF"
+    >
+
+
+    <ImageButton
+        android:id="@+id/img_lishihudong"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="89dp"
+        android:background="@android:color/holo_orange_dark"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+
+    <ImageButton
+        android:id="@+id/img_yuxirenwu"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:background="@android:color/holo_blue_bright"
+        app:srcCompat="@android:drawable/ic_menu_agenda" />
+
+    <ImageButton
+        android:id="@+id/img_ketangceshi"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_alignTop="@+id/img_lishihudong"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="43dp"
+
+        android:layout_marginRight="43dp"
+        android:background="@android:color/holo_green_light"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <TextView
+        android:id="@+id/tv_lishihudong"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/img_lishihudong"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:text="互动历史"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/tv_yuxirenwu"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/img_yuxirenwu"
+        android:layout_alignBottom="@+id/tv_lishihudong"
+        android:text="预习任务"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/tv_ketangceshi"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/img_ketangceshi"
+        android:layout_alignBottom="@+id/tv_lishihudong"
+        android:textSize="15sp"
+        android:text="课堂测试"
+        android:textColor="@color/black"
+        tools:ignore="RtlCompat" />
+
+
+</RelativeLayout>

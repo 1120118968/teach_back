@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#DDF3FF"
+    android:orientation="vertical"
+
+ >
+
+    <LinearLayout
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="#6495ED"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:id="@+id/title"
+        android:gravity="center_horizontal|center_vertical"  >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动  态"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:background="#479AC7"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    <RelativeLayout
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="#6495ED"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/add_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="matrix"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/task_tab_process_selected" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/add_friend"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:text="添加朋友"
+            android:textSize="17sp"
+            android:textColor="#000" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="matrix"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/file_tab_tree_selected" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="#6495ED"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center_vertical"
+         >
+        <ImageView
+            android:id="@+id/add_friend_shake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="matrix"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/file_tab_tree_selected" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/add_friend_shake"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:text="摇一摇"
+            android:textSize="17sp"
+            android:textColor="#000" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="matrix"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/task_tab_service_selected" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
